@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Earn While You Learn | Funngro for Teens</title>
+  <meta name="description" content="Funngro helps students work with real companies, learn practical skills, and earn money safely while studying.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO -->
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Funngro">
+  <link rel="canonical" href="https://www.funngro.com/teen">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+
+    body {
+      color: #1f2937;
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 16px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #e5e7eb;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: 700;
+      color: #2563eb;
+    }
+
+    nav a {
+      margin-left: 24px;
+      text-decoration: none;
+      font-weight: 500;
+      color: #111827;
+    }
+
+    .hero {
+      padding: 80px 8%;
+      background: #f9fafb;
+    }
+
+    .hero h1 {
+      font-size: 38px;
+      margin-bottom: 16px;
+    }
+
+    .hero p {
+      max-width: 600px;
+      margin-bottom: 24px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 22px;
+      background: #2563eb;
+      color: #fff;
+      border-radius: 4px;
+      text-decoration: none;
+    }
+
+    section {
+      padding: 60px 8%;
+    }
+
+    h2 {
+      font-size: 28px;
+      margin-bottom: 16px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+    }
+
+    .card {
+      border: 1px solid #e5e7eb;
+      padding: 24px;
+      border-radius: 6px;
+    }
+
+    .cta {
+      background: #2563eb;
+      color: #fff;
+      text-align: center;
+    }
+
+    .cta .btn {
+      background: #fff;
+      color: #2563eb;
+      margin-top: 16px;
+    }
+
+    footer {
+      padding: 20px 8%;
+      border-top: 1px solid #e5e7eb;
+      font-size: 14px;
+      color: #6b7280;
+      text-align: center;
+    }
+
+    @media (max-width: 900px) {
+      .grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 600px) {
+      header {
+        flex-direction: column;
+        gap: 12px;
+      }
+
+      .grid {
+        grid-template-columns: 1fr;
+      }
+
+      .hero h1 {
+        font-size: 30px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header role="banner">
+  <div class="logo">Funngro</div>
+  <nav role="navigation" aria-label="Main navigation">
+    <a href="teen.html">Teen</a>
+    <a href="company.html">Company</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Work With Real Companies. Start Early.</h1>
+  <p>
+    Funngro gives students the opportunity to work on real business tasks,
+    build practical skills, and earn money while studying.
+  </p>
+  <a href="#start" class="btn">Join as a Teen</a>
+</section>
+
+<section>
+  <h2>How Funngro Works</h2>
+  <div class="grid">
+    <div class="card">Create your student profile</div>
+    <div class="card">Apply for available projects</div>
+    <div class="card">Complete tasks and earn securely</div>
+  </div>
+</section>
+
+<section>
+  <h2>Types of Work Available</h2>
+  <div class="grid">
+    <div class="card">Social media support</div>
+    <div class="card">Content & research</div>
+    <div class="card">Market surveys</div>
+    <div class="card">Lead generation</div>
+    <div class="card">Customer support</div>
+    <div class="card">Basic design & video tasks</div>
+  </div>
+</section>
+
+<section id="start" class="cta">
+  <h2>Start Building Skills That Matter</h2>
+  <a class="btn" href="#">Get Started</a>
+</section>
+
+<footer>
+  © 2025 Funngro. All rights reserved.
+</footer>
+
+<script>
+  // Highlight active navigation link
+  document.querySelectorAll('nav a').forEach(link => {
+    if (link.href === window.location.href) {
+      link.style.color = '#2563eb';
+      link.style.fontWeight = '600';
+    }
+  });
+</script>
+
+</body>
+</html>
